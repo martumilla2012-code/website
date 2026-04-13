@@ -1,0 +1,239 @@
+
+/*STYLE SHEET FOR INDEX.HTML*/
+
+
+/* Body styles */
+body {
+    font-family: "Coco Gothic", Lato;
+    font-size: 14px;
+    margin: 0;
+    color: #000000; /* black text */
+    background-color: #F6D7E7; /* light magenta background */
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #004AAD; /* cobalt blue */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Main layout */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Section styling */
+section {
+    background-color: #FFD6F1; /* very light magenta */
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+}
+
+/* Section images */
+section img {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 6px;
+}
+
+/* Header image */
+header {
+    position: relative;
+}
+
+header img {
+    width: 100%;
+    display: block;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #FCCEE9;
+    padding: 20px;
+    position: relative;
+}
+
+/* Logo positioning */
+.logo {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.logo img {
+    width: 70px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+/* Navigation list */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+/* Navigation links */
+nav a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+
+nav a:hover {
+    color: #EC8D9B; /* pastel red */
+}
+
+.contact-form {
+    margin-top: 40px;
+}
+
+/* FLEX CONTAINER */
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFD6F1;
+    padding: 40px;
+    border-radius: 8px;
+    gap: 30px;
+}
+
+/* LEFT TEXT */
+.form-left h1 {
+    text-align: left;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #000;
+}
+
+/* RIGHT FORM BOX */
+.form-right {
+    background-color: #FCCEE9;
+    padding: 25px;
+    border-radius: 8px;
+    width: 320px;
+}
+
+/* LABELS */
+.form-right label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+/* INPUTS + TEXTAREA */
+.form-right input,
+.form-right textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* TEXTAREA SIZE */
+.form-right textarea {
+    height: 80px;
+    resize: none;
+}
+
+/* BUTTON */
+.form-right button {
+    width: 100%;
+    padding: 12px;
+    background-color: #EC8D9B;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* BUTTON HOVER */
+.form-right button:hover {
+    background-color: #d67684;
+}
+
+/* PAGE CONTAINER (ABOUT / SERVICES) */
+.page-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.page-container p {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.page-container ul {
+    background-color: #FFD6F1;
+    padding: 20px;
+    border-radius: 8px;
+    list-style: none;
+}
+
+.page-container ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.page-container ul li:last-child {
+    border-bottom: none;
+}
+
+footer {
+    background-color: #004AAD; /* cobalt blue */
+    color: #FFE0F0; /* soft blush pink */
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Footer sections */
+.footer-left,
+.footer-center,
+.footer-right {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+/* Icons */
+.social-icon {
+    width: 25px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+/* Footer links */
+footer a {
+    color: #FFE0F0;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
